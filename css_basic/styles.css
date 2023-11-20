@@ -1,0 +1,392 @@
+header{
+   display: flexbox;
+   justify-content: center;
+   align-items: center;
+    background-color: black;
+    color: white;
+}
+
+
+.logobox {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    width: 20%;
+    
+}
+
+.blockquote-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-emphasis-color: white;
+    
+}
+
+a{
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+/*main{
+    /* display: flex; */
+    /* flex: auto; */
+    
+
+
+.firstsection {
+    display: flexbox;
+    background-color: black
+}
+
+.firstheader {
+    display: flex;
+    color: white;
+    font-size: 400%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5%;
+    color: white;
+    font-size: larger;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+    align-content: center;
+    background-color: violet;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.Learnthepros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+.Learn {
+    color: plum;
+}
+
+.thepros {
+    margin-left: 3px;
+    color: white
+    }
+
+.imagepros {
+    display: flex;
+    flex: 1,1,1;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.ProNames {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: larger;
+    margin-left: 50px;
+}
+
+.themes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: large;
+    margin-left: 50px;
+}
+
+.years {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: small;
+    margin-left: 50px;
+}
+
+
+.aside-tutorial {
+    background-color: plum;
+    color: white;
+
+    
+}
+
+.weather-presenter {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    margin:0%;
+    
+}
+
+
+.third-section{
+    background-color: whitesmoke;
+
+}
+
+.third-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    font-size: x-large;
+    
+    }
+
+.Most {
+    display: flex;
+    color: plum;
+    
+}
+.popular {
+    display: flex;
+    color: black;
+    margin-left: 5px;
+   
+    
+}
+.tutorial-head {
+    display: flex;
+    color: black;
+    margin-left: 5px;
+  
+}
+
+.videos {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.Videos-details {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+.Videos-details-more{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.sub-videos-details{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.Membership-Section {
+    background-color: rgb(35, 3, 58);
+   
+}
+
+.Free-Membership {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    margin-top: 0%;
+}
+
+.free{
+    display: flex;
+    color: plum;
+    font:bolder;
+    
+    }
+
+.membership {
+    margin-left: 3px;
+    
+}
+.membership-images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+
+}
+.membership-list {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+   
+}
+
+.membership-details {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+   
+}
+
+.membership-detailsb {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+   
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+    align-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 0%;    
+}
+
+.FAQ {
+    background-color: whitesmoke;
+}
+
+.FAQ-Header {
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    margin-top: 0%;
+}
+
+.Question {
+    display: flex;
+    color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: large;
+    row-gap: 0%;
+    
+}
+
+.sub-question {
+    display: flex;
+    color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: x-small;
+    margin-left: 100;
+    
+}
+
+.sub-question2 {
+    display: flex;
+    color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: x-small;
+    row-gap: 0%;
+    
+}
+
+.sub-question3 {
+    display: flex;
+    color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: x-small;
+    row-gap: 0%;
+    margin-bottom: 0%;
+}
+
+.footer {
+    background-color: rgb(35, 3, 58)
+}
+
+.footer-images {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+article{
+    width: 85%;
+    max-width: 85%;
+    min-width: 85%;
+    float: left;
+    overflow-y: auto;
+    margin-right: 5px;
+    flex: 2;
+}
+
+aside{
+    width: 30%;
+    max-width: 160px;
+    min-width: 120px;
+    height: 212%;
+    float: right;
+    background-color: plum;
+    border: plum solid 1px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    overflow-y: auto;
+    flex:1;
+
+}
+
+footer{
+    width: 80%;
+    max-width: 80%;
+    min-width: 85%;
+    float: left;
+    
+    margin-right: 5px;
+}
