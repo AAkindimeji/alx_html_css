@@ -21,6 +21,6 @@ This project serves as a comprehensive guide to mastering HTML from the basics t
 Feel free to contribute by adding more examples or improving existing ones. Happy coding!
 
 
-Hope we have a great ride on this!
+Hope we have a great ride on these!
 
 
