@@ -19,4 +19,6 @@ This project serves as a comprehensive guide to mastering HTML from the basics t
 3. Follow the organized structure to navigate through different HTML topics.
 
 Feel free to contribute by adding more examples or improving existing ones. Happy coding!
+Thanks
+
 
