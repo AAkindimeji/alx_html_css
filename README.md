@@ -25,7 +25,7 @@ Many thanks
 
 Hope we have a great ride on these!
 
-Thanks
+Many Thanks
 
 
 
