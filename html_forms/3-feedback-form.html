@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form</title>
+</head>
+<body>
+  <h1>Feedback</h1>
+  <form action="/feedback" method="post" enctype="multipart/form-data">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label>Feedback:</label><br>
+    <input type="checkbox" id="excellent" name="feedback[]" value="excellent">
+    <label for="excellent">Excellent</label><br>
+    <input type="checkbox" id="good" name="feedback[]" value="good">
+    <label for="good">Good</label><br>
+    <input type="checkbox" id="average" name="feedback[]" value="average">
+    <label for="average">Average</label><br>
+    <input type="checkbox" id="poor" name="feedback[]" value="poor">
+    <label for="poor">Poor</label><br>
+
+    <label for="file">Upload File (Optional):</label>
+    <input type="file" id="file" name="file"><br>
+
+    <button type="submit">Submit Feedback</button>
+  </form>
+
+  <script>
+    // Add JavaScript validation here (optional)
+    const form = document.getElementById('feedback-form');
+    
+    form.addEventListener('submit', (event) => {
+        let selected = false;
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        for (const checkbox of checkboxes) {
+            if (checkbox.checked) {
+                selected = true;
+                break;
+            }
+        }
+        
+        if (!selected) {
+            alert('Please select at least one feedback option.');
+            event.preventDefault();
+        }
+    // Add similar check for file upload (optional)
+    });
+
+  </script>
+</body>
+</html>
